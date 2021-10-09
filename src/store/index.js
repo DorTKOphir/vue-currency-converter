@@ -5,7 +5,7 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    currentCurrency: '$',
+    currentCurrency: 'USD',
   },
   mutations: {
     SET_CURRENCY(state, currency) {
